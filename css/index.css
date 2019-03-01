@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+
+/*header*/
+.wrap header .backBox{
+    position: relative;
+}
+.wrap header .backBox .logo{
+    width: 3.19rem;
+    height: 0.47rem;
+    position: absolute;
+    left: 0.30rem;
+    bottom:0.26rem;
+}
+.wrap header .backBox .gengduo{
+    width: 0.51rem;
+    height: 0.12rem;
+    position: absolute;
+    right:0.30rem;
+    bottom:0.38rem;
+}
+
+/*banner*/
+
+.wrap .banner img{
+    width: 100%;
+    height: auto;
+}
+
+/*nav*/
+
+.wrap .nav .navBox .navPic p a{
+    font:0.26rem/0.81rem "微软雅黑";
+    color: #666;
+}
+.wrap .nav .navBox .navPic img{
+    width: 0.98rem;
+    height:0.98rem;
+}
+.wrap .nav .navBox{
+    display: flex;
+    justify-content: space-between;
+    padding:0.30rem 0 0.12rem 0;
+    border-bottom: 0.01rem solid #eee;
+}
+
+/*最新活动*/
+.wrap .activity .new{
+    background: url("../images/new_03.jpg")no-repeat right top;
+    background-size: 0.80rem;
+    margin: 0.32rem 0;
+}
+.wrap .activity .new .huoDongpic img{
+    width: 1.13rem;
+    height: 0.74rem;
+    border-right: 0.01rem solid #f0f0f0;
+    padding-top: 0.05rem;
+}
+.wrap .activity .new .huoDong .gansu a{
+    font:0.24rem/0.42rem "微软雅黑";
+    color: #444;
+}
+.wrap .activity .new .huoDong .shanxi a{
+    font:bold 0.24rem/0.42rem "微软雅黑";
+    color: #444;
+}
+.wrap .activity .new .huoDong{
+    padding-left: 0.29rem;
+}
+
+hr{
+    height: 0.12rem;
+    background: #eee;
+    border:none;
+}
+
+/*头条新闻*/
+.wrap .activity .topNew .topnewBox{
+    background: url("../images/jiantou_03.jpg")no-repeat right center;
+    background-size: 0.12rem 0.21rem;
+    padding: 0.20rem 0;
+    border-bottom: 0.01rem solid #f3f5f3;
+}
+.wrap .activity .topNew .topnewBox img{
+    width: 0.58rem;
+    height: 0.39rem;
+}
+.wrap .activity .topNew .topnewBox h3{
+    font:bold 0.32rem "微软雅黑";
+    color: #444;
+    padding-left: 0.18rem;
+    padding-right: 0.29rem;
+}
+.wrap .activity .topNew .topnewBox select{
+    width:2.18rem;
+    height: 0.38rem;
+    border: 1px solid #ccc;
+    border-radius: 0.10rem;
+    color: #999;
+    text-indent: 0.23rem;
+    -webkit-appearance:none;
+    background: url("../images/xiajiantou_09.jpg")no-repeat 1.89rem center;
+    background-size: 0.17rem 0.09rem;
+}
+.wrap .activity .topNew .topnewText p a{
+    font:0.28rem/0.87rem "微软雅黑";
+    color:#444;
+}
+.wrap .activity .topNew .topnewText p{
+    background: url("../images/yuandian_10.jpg")no-repeat left center;
+    background-size: 0.10rem;
+    padding-left: 0.27rem;
+}
+.wrap .activity .topNew .topnewText{
+    padding: 0.11rem 0 0.21rem 0;
+    border-bottom: 0.01rem solid #e8e8e8;
+}
+

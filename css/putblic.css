@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+html{  font-size: 100px;  }
+.inner{ width: 6.90rem; height:auto; margin: 0 auto; }
+
+.wrap{
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*header*/
+.wrap header .backBox img{
+    width: 100%;
+    height: auto;
+}
+
+
+.inner{
+    width: 6.90rem;
+}
+/*footer*/
+.wrap footer .bigBox{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+}
+.wrap footer .bigBox .box{
+    width: 1rem;
+}
+.wrap footer .bigBox .box img{
+    width: 0.37rem;
+    height: 0.37rem;
+    padding-top: 0.14rem;
+}
+.wrap footer .bigBox .box2 img{
+    width:0.44rem ;
+    height: 0.36rem;
+}
+.wrap footer .bigBox .box3 img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.wrap footer .bigBox .box4 img{
+    width: 0.37rem;
+    height: 0.32rem;
+}
+.wrap footer .bigBox .box p a{
+    display: block;
+    font:0.18rem/0.45rem "微软雅黑";
+    color: #6e6e6e;
+}
+.wrap footer .bigBox .box1 p a{
+    color: #16ccaf;
+}
